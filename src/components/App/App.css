@@ -1,0 +1,61 @@
+.App {
+  border-bottom-color: #999;
+  border-left-color: white;
+  border-right-color: #999;
+  border-style: solid;
+  border-top-color: white;
+  border-width: 4px;
+  background: #c2c2c2;
+  padding: 16px;
+}
+
+.Header {
+  border-bottom-color: white;
+  border-left-color: #7b7b7b;
+  border-right-color: white;
+  border-style: solid;
+  border-top-color: #7b7b7b;
+  border-width: 4px;
+  align-items: center;
+  background: #c0c0c0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 12px;
+}
+
+.Body {
+  border-bottom-color: white;
+  border-left-color: #7b7b7b;
+  border-right-color: white;
+  border-style: solid;
+  border-top-color: #7b7b7b;
+  border-width: 4px;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  margin-top: 16px;
+}
+
+.Smile {
+  border-bottom-color: #7b7b7b;
+  border-left-color: white;
+  border-right-color: #7b7b7b;
+  border-style: solid;
+  border-top-color: white;
+  border-width: 4px;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-size: 35px;
+  height: 52px;
+  justify-content: center;
+  width: 52px;
+}
+.Smile:active {
+  border-bottom-color: white;
+  border-left-color: #7b7b7b;
+  border-right-color: white;
+  border-top-color: #7b7b7b;
+}
+
+/*# sourceMappingURL=App.css.map */

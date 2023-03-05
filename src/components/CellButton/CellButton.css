@@ -1,0 +1,62 @@
+.CellButton {
+  border-bottom-color: #7b7b7b;
+  border-left-color: white;
+  border-right-color: #7b7b7b;
+  border-style: solid;
+  border-top-color: white;
+  border-width: 4px;
+  align-items: center;
+  display: flex;
+  font-weight: bold;
+  height: 30px;
+  justify-content: center;
+  width: 30px;
+}
+.CellButton:active {
+  border-bottom-color: white;
+  border-left-color: #7b7b7b;
+  border-right-color: white;
+  border-top-color: #7b7b7b;
+}
+.CellButton.visible {
+  border-color: #7b7b7b;
+  border-width: 1px;
+}
+.CellButton.red {
+  background: red;
+}
+.CellButton span {
+  font-size: 12px;
+  margin-left: 2px;
+}
+.CellButton.value-1 {
+  color: blue;
+}
+.CellButton.value-2 {
+  color: green;
+}
+.CellButton.value-3 {
+  color: red;
+}
+.CellButton.value-4 {
+  color: purple;
+}
+.CellButton.value-5 {
+  color: maroon;
+}
+.CellButton.value-6 {
+  color: turquoise;
+}
+.CellButton.value-7 {
+  color: black;
+}
+.CellButton.value-8 {
+  color: gray;
+}
+
+.question {
+  color: black;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=CellButton.css.map */
