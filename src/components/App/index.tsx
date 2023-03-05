@@ -157,6 +157,7 @@ const App: React.FC = () => {
         setCells(makeCells());
         setHasLost(false);
         setHasWon(false);
+        setBombCounter(0)
     };
 
     const mapCells =(): React.ReactNode => {
