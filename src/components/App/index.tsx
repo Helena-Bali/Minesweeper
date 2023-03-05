@@ -38,6 +38,7 @@ const App: React.FC = () => {
         if (hasWon) {
             setGameOn(false);
             setSmile(Smile.won);
+            setBombCounter(0)
         }
     }, [hasWon]);
 
@@ -156,7 +157,7 @@ const App: React.FC = () => {
         setTimer(0);
         setCells(makeCells());
         setHasLost(false);
-        setBombCounter(0)
+        setBombCounter(40)
         setHasWon(false);
     };
 
