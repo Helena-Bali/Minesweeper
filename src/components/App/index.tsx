@@ -173,7 +173,7 @@ const App: React.FC = () => {
                 onClick={cellClick}
                 onContext={handleCellContext}
                 red={it.red}
-            />)
+                />)
         })
     }
 
@@ -204,7 +204,10 @@ const App: React.FC = () => {
                 </div>
                 <Display value={time}/>
             </div>
-            <div className="Body">{mapCells()}</div>
+            <div className={`Body ${
+                hasLost ? "disabled" : ""
+            }`}
+            >{mapCells()}</div>
         </div>
     );
 }

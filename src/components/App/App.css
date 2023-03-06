@@ -58,4 +58,8 @@
   border-top-color: #7b7b7b;
 }
 
+.disabled {
+  pointer-events: none;
+}
+
 /*# sourceMappingURL=App.css.map */
